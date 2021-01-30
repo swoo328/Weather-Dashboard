@@ -1,3 +1,11 @@
 h1{
     text-align: center;
 }
+
+#currentWeather{
+    text-align:center;
+}
+
+#weatherSearch{
+    margin-left: 20px;
+}
