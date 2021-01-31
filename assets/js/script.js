@@ -88,10 +88,10 @@ function searchWeather() {
                 // converts K and removes decimals using Math.round
                 var tempF = Math.floor((response.list[i].main.temp - 273.15) * 1.80 + 32);
                 // displays the temperature in F
-                weatherCard.append($("<p>").html("Temp: " + tempF + " &#8457"));
+                weatherCard.append($("<h3>").html("Temp: " + tempF + " &#8457"));
                 // displays the humidity
                 var humidity = response.list[i].main.humidity;
-                weatherCard.append($("<p>").html("Humidity: " + humidity));
+                weatherCard.append($("<h3>").html("Humidity: " + humidity));
             }
         })
     })
