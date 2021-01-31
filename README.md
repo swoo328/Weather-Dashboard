@@ -1,7 +1,7 @@
 # Weather-Dashboard
 
 # screenshot
-
+![](assets/images/screenshot.png)
 # github live url
  https://swoo328.github.io/Weather-Dashboard/
 
