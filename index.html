@@ -15,7 +15,7 @@
 <body>
     <h1>Weather Dashboard</h1>
     <div class="row">
-        <div id="weatherSearch">
+        <div class = "col-4" id="weatherSearch">
             <label>
                 <h4>Search For a City:</h4>
             </label>
@@ -30,22 +30,20 @@
             </div>
             <div id="searches"></div>
         </div>
-        <div id="weatherForecast">
+        <div id="weatherForecast" class="col">
             <div id="currentWeather">
 
             </div>
             <div id="forecastWrap">
                 <h1>5 Day Weather Forecast</h1>
                 <div id="forecast">
-                    <div class="card-deck fiveDays">
-
-                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src=assets/js/script.js></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
